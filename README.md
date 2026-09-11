@@ -1,10 +1,10 @@
 <div align="center">
 
-# ðŸ§  Nexus VII â€” Autonomous Intelligence
+# 🧠 Nexus VII — Autonomous Intelligence
 
 **A J.A.R.V.I.S.-inspired autonomous AI assistant with voice control, Telegram integration, proactive reminders, web form automation, screen analysis, and neural hot-swapping across multiple AI providers.**
 
-Built with Python Â· FastAPI Â· WebSockets
+Built with Python · FastAPI · WebSockets
 
 <br>
 <img src="https://img.shields.io/github/license/saruk-vedant/Nexus-VII-Autonomous-Intelligence?style=flat-square" alt="License">
@@ -17,39 +17,39 @@ Built with Python Â· FastAPI Â· WebSockets
 
 ---
 
-## âœ¨ Features
+## ✨ Features
 
 | Feature | Description |
 |---------|-------------|
-| **ðŸ—£ï¸ Wake-Word Activation** | Hands-free experience. Just say "Jarvis" to wake the system, activate the Web UI, and start recording your input. |
-| **ðŸŽ™ï¸ Voice Control** | Speak to your assistant using real-time speech recognition and human-like TTS responses. |
-| **ðŸ“± Telegram Bot** | Remote control and notifications via a personal Telegram bot. |
-| **ðŸ”„ Proactive Engine** | Autonomous background AI that monitors your goals and sends nudges. |
-| **ðŸ•µï¸ Silent Web Research** | Background web searches to fact-check or gather context before responding, without clogging the chat. |
-| **ðŸ“ Web Form Automation** | AI-powered Google Forms and web form filling via Playwright. |
-| **ðŸ‘ï¸ Screen Analysis** | Visual awareness of your desktop. Ask "Look at my screen" to take a screenshot and get contextual advice. |
-| **ðŸ“± Instagram Researcher** | Built-in ability to scrape public Instagram profiles and generate analytical reports on them. |
-| **ðŸ—‚ï¸ App Management** | Open and close specific applications, or execute a "focus mode" by closing all non-essential apps. |
-| **ðŸ“ File System Mastery** | Read, write, move, delete, and create files/folders anywhere. Compile text into formatted PDFs. |
-| **âš™ï¸ System Operations** | Lock screen, adjust master volume, empty recycle bin, put PC to sleep, restart, or format drives. |
-| **ðŸŽµ Spotify Integration** | Search for and play specific songs, artists, or playlists on Spotify desktop, and control media playback. |
-| **ðŸ“‹ Clipboard Access** | Read whatever text you currently have copied to your clipboard. |
-| **â° Smart Reminders** | Schedule delayed pings to your phone by setting a reminder at a specific time. |
-| **ðŸ“§ Gmail Integration** | Read your latest unread emails and compose/send new emails on your behalf. |
-| **ðŸ›¡ï¸ Action Confirmation Gate** | Intercepts highly destructive actions (like formatting a drive) and forces a manual prompt for safety. |
-| **ðŸ§¬ Neural Hot-Swapping** | Seamless automatic failover across multiple AI providers when rate limits hit. |
-| **ðŸ“… Google Calendar** | Check and create calendar events via the Google Calendar API. |
-| **ðŸ“‚ Google Drive** | Download files and entire folders from Google Drive shared links. |
-| **ðŸ§  Vector Memory** | Persistent long-term memory with semantic recall (RAG). |
-| **ðŸŽ¯ Skills System** | Extensible skill/plugin system to teach your AI new behaviors. |
-| **ðŸš€ Smart App Locator** | Dynamically finds and launches Windows apps using deep registry scanning. |
-| **ðŸ§‘â€ðŸ’» Dedicated Coding Mode** | Hot-swaps to NVIDIA's massive Llama 3.1 70B model specifically for complex coding tasks. |
-| **ðŸ“º YouTube Automation** | Autonomously opens your browser and runs specific YouTube search queries. |
-| **ðŸ§¹ Show Desktop Panic Button** | Instantly minimize every single window on your computer using Windows shell APIs. |
-| **ðŸ“² PC-to-Phone File Transfer** | Generates or extracts files from your PC and sends them directly to your Telegram app. |
-| **ðŸŽ¯ Anti-Procrastination Telemetry** | Silently checks the active screen window to send context-aware nudges if you are distracted. |
-| **ðŸ§© Drag-and-Drop Skill Hub** | Install new capabilities by dropping Python scripts or URLs directly into the Web HUD. |
-| **ðŸŽ›ï¸  Live Configuration Panel** | Securely edit API keys and settings in real-time from the web interface. |
+| **🗣️ Wake-Word Activation** | Hands-free experience. Just say "Jarvis" to wake the system, activate the Web UI, and start recording your input. |
+| **🎙️ Voice Control** | Speak to your assistant using real-time speech recognition and human-like TTS responses. |
+| **🧬 Neural Hot-Swapping** | Seamless automatic failover across multiple AI providers when rate limits hit. |
+| **👁️ Screen Analysis** | Visual awareness of your desktop. Ask "Look at my screen" to take a screenshot and get contextual advice. |
+| **🔄 Proactive Engine** | Autonomous background AI that monitors your goals and sends nudges. |
+| **🎯 Anti-Procrastination Telemetry** | Silently checks the active screen window to send context-aware nudges if you are distracted. |
+| **🕵️ Silent Web Research** | Background web searches to fact-check or gather context before responding, without clogging the chat. |
+| **📝 Web Form Automation** | AI-powered Google Forms and web form filling via Playwright. |
+| **🧑‍💻 Dedicated Coding Mode** | Hot-swaps to NVIDIA's massive Llama 3.1 70B model specifically for complex coding tasks. |
+| **🧠 Vector Memory** | Persistent long-term memory with semantic recall (RAG). |
+| **📱 Telegram Bot** | Remote control and notifications via a personal Telegram bot. |
+| **📲 PC-to-Phone File Transfer** | Generates or extracts files from your PC and sends them directly to your Telegram app. |
+| **📧 Gmail Integration** | Read your latest unread emails and compose/send new emails on your behalf. |
+| **🛡️ Action Confirmation Gate** | Intercepts highly destructive actions (like formatting a drive) and forces a manual prompt for safety. |
+| **📁 File System Mastery** | Read, write, move, delete, and create files/folders anywhere. Compile text into formatted PDFs. |
+| **⚙️ System Operations** | Lock screen, adjust master volume, empty recycle bin, put PC to sleep, restart, or format drives. |
+| **🗂️ App Management** | Open and close specific applications, or execute a "focus mode" by closing all non-essential apps. |
+| **🚀 Smart App Locator** | Dynamically finds and launches Windows apps using deep registry scanning. |
+| **🎵 Spotify Integration** | Search for and play specific songs, artists, or playlists on Spotify desktop, and control media playback. |
+| **📺 YouTube Automation** | Autonomously opens your browser and runs specific YouTube search queries. |
+| **📱 Instagram Researcher** | Built-in ability to scrape public Instagram profiles and generate analytical reports on them. |
+| **📅 Google Calendar** | Check and create calendar events via the Google Calendar API. |
+| **📂 Google Drive** | Download files and entire folders from Google Drive shared links. |
+| **📋 Clipboard Access** | Read whatever text you currently have copied to your clipboard. |
+| **⏰ Smart Reminders** | Schedule delayed pings to your phone by setting a reminder at a specific time. |
+| **🎯 Skills System** | Extensible skill/plugin system to teach your AI new behaviors. |
+| **🧩 Drag-and-Drop Skill Hub** | Install new capabilities by dropping Python scripts or URLs directly into the Web HUD. |
+| **🎛️ Live Configuration Panel** | Securely edit API keys and settings in real-time from the web interface. |
+| **🧹 Show Desktop Panic Button** | Instantly minimize every single window on your computer using Windows shell APIs. |
 
 ---
 
@@ -70,9 +70,16 @@ Jarvis uses real-time speech recognition (via Whisper on Groq or Google's free S
 </details>
 
 <details>
-<summary><b>📱 Telegram Bot</b></summary>
+<summary><b>🧬 Neural Hot-Swapping</b></summary>
 
-Your personal remote control. Once configured, you can message your Jarvis bot from anywhere in the world — from your phone, tablet, or another computer. Send text commands and get full AI responses back. The bot is **locked to your Telegram user ID**, so nobody else can use it. Jarvis can also proactively message you with reminders, goal nudges, and file transfers.
+Jarvis doesn't depend on a single AI provider. If your primary provider (e.g., Google Gemini) hits a rate limit (HTTP 429), the system **automatically and seamlessly switches** to the next backup provider in your configured chain (e.g., NVIDIA → Mistral → another Gemini key). You can configure up to **5 backup providers** in your `.env` file. When rate limits clear, it swaps back to the primary. You never experience downtime.
+
+</details>
+
+<details>
+<summary><b>👁️ Screen Analysis</b></summary>
+
+Jarvis has **visual awareness** of your physical desktop. If you say "What's on my screen?" or "Look at this error," he will silently take a screenshot of your monitor, encode it, and send it to an AI Vision model (NVIDIA Nemotron or Google Gemini). He then analyzes the image and gives you contextual advice based on exactly what you're looking at — whether it's a code error, a settings page, or a document.
 
 </details>
 
@@ -80,6 +87,13 @@ Your personal remote control. Once configured, you can message your Jarvis bot f
 <summary><b>🔄 Proactive Engine</b></summary>
 
 Unlike normal AI assistants that only respond when spoken to, Jarvis has an **autonomous background loop** that runs silently. It loads your personal goals, checks what app you currently have open on screen (Anti-Procrastination Telemetry), reviews your memory, and decides on its own whether to send you a motivational nudge or a reminder via Telegram. It's like having a personal productivity coach watching over your shoulder.
+
+</details>
+
+<details>
+<summary><b>🎯 Anti-Procrastination Telemetry</b></summary>
+
+The Proactive Engine silently monitors which application window is currently active on your screen using `ctypes` Windows API calls. It feeds this information (e.g., "YouTube - Google Chrome" vs. "Visual Studio Code") into the AI alongside your tracked goals. If it detects you're procrastinating, Jarvis can autonomously send you a **motivational nudge** via Telegram to get you back on track.
 
 </details>
 
@@ -98,23 +112,47 @@ Give Jarvis a Google Form URL (or any web form), tell him what to fill in, and h
 </details>
 
 <details>
-<summary><b>👁️ Screen Analysis</b></summary>
+<summary><b>🧑‍💻 Dedicated Coding Mode</b></summary>
 
-Jarvis has **visual awareness** of your physical desktop. If you say "What's on my screen?" or "Look at this error," he will silently take a screenshot of your monitor, encode it, and send it to an AI Vision model (NVIDIA Nemotron or Google Gemini). He then analyzes the image and gives you contextual advice based on exactly what you're looking at — whether it's a code error, a settings page, or a document.
-
-</details>
-
-<details>
-<summary><b>📱 Instagram Researcher</b></summary>
-
-Give Jarvis one or more public Instagram handles and a question (e.g., "What kind of content does this person post?"), and he will scrape the profile pages using a headless browser, extract bio info, post captions, and engagement data, and then generate an **analytical report** answering your question. Useful for competitive research, influencer analysis, or simple curiosity.
+When you ask Jarvis to write complex code, debug a script, or do heavy programming work, he can temporarily **hot-swap his AI brain** from a lightweight model (like Gemini Flash) to NVIDIA's massive **Llama 3.1 70B** model — specifically optimized for code generation. Once the coding task is done, he seamlessly swaps back to the faster model for regular conversation.
 
 </details>
 
 <details>
-<summary><b>🗂️ App Management</b></summary>
+<summary><b>🧠 Vector Memory (RAG)</b></summary>
 
-Jarvis can open any application on your Windows PC by name — even if it's buried deep in your Start Menu or registry. He uses a **Smart App Locator** that searches PowerShell's `Get-StartApps`, the Windows Registry, Start Menu `.lnk` files, and your system `PATH`, then uses fuzzy matching to find the best match. He can also close specific apps, or activate a **"Focus Mode"** that kills every application except the ones you whitelist.
+Jarvis has **persistent long-term memory** powered by semantic vector embeddings. When you tell him something important (e.g., "My favorite programming language is Python"), he stores it as a vector. Later, when a relevant topic comes up, he performs a **semantic similarity search** to recall the right memories — even if you used different words. This is a full Retrieval-Augmented Generation (RAG) pipeline running locally.
+
+</details>
+
+<details>
+<summary><b>📱 Telegram Bot</b></summary>
+
+Your personal remote control. Once configured, you can message your Jarvis bot from anywhere in the world — from your phone, tablet, or another computer. Send text commands and get full AI responses back. The bot is **locked to your Telegram user ID**, so nobody else can use it. Jarvis can also proactively message you with reminders, goal nudges, and file transfers.
+
+</details>
+
+<details>
+<summary><b>📲 PC-to-Phone File Transfer</b></summary>
+
+Because Jarvis is connected to your Telegram bot, he can do more than just send text messages. He can **extract or generate files on your PC** (PDFs, screenshots, documents) and push them directly to your Telegram app on your phone. For example: "Jarvis, generate a syllabus PDF for my biology class and send it to my phone."
+
+</details>
+
+<details>
+<summary><b>📧 Gmail Integration</b></summary>
+
+Jarvis can connect to your Gmail account using a secure **App Password** (not your main password). He can:
+- 📥 **Read your latest unread emails** and summarize them for you
+- 📤 **Compose and send emails** on your behalf, including with file attachments
+- Supports **multiple Gmail accounts** — just configure a second set of credentials in your `.env` file
+
+</details>
+
+<details>
+<summary><b>🛡️ Action Confirmation Gate</b></summary>
+
+Safety first. Jarvis maintains a `DANGEROUS_TOOLS` list that includes actions like formatting drives, permanently deleting files, and emptying the recycle bin. Before executing any of these, the system **intercepts the AI's intent** and forces a manual confirmation popup in the Web UI. This ensures that even if the AI hallucinates or misunderstands a command, it can never accidentally destroy your data without your explicit approval.
 
 </details>
 
@@ -138,6 +176,20 @@ Deep Windows integration via `pywin32` and `ctypes`. Jarvis can:
 </details>
 
 <details>
+<summary><b>🗂️ App Management</b></summary>
+
+Jarvis can open any application on your Windows PC by name — even if it's buried deep in your Start Menu or registry. He uses a **Smart App Locator** that searches PowerShell's `Get-StartApps`, the Windows Registry, Start Menu `.lnk` files, and your system `PATH`, then uses fuzzy matching to find the best match. He can also close specific apps, or activate a **"Focus Mode"** that kills every application except the ones you whitelist.
+
+</details>
+
+<details>
+<summary><b>🚀 Smart App Locator</b></summary>
+
+The most carefully engineered module in the entire project. It pulls application data from **four different sources**: PowerShell's `Get-StartApps`, the Windows Registry App Paths, Start Menu `.lnk` shortcut files, and the system `PATH` environment variable. It then uses **fuzzy string matching** to find the best match for whatever app name you say — even if you get the name slightly wrong.
+
+</details>
+
+<details>
 <summary><b>🎵 Spotify Integration</b></summary>
 
 Tell Jarvis to play a song, artist, or playlist, and he'll open your **Spotify Desktop app**, launch a headless browser to search Spotify's web player, find the exact track, and trigger playback — all **without needing Spotify API keys**. He can also control media playback: play, pause, skip to the next track, or go back to the previous one using simulated keyboard media keys.
@@ -145,40 +197,16 @@ Tell Jarvis to play a song, artist, or playlist, and he'll open your **Spotify D
 </details>
 
 <details>
-<summary><b>📋 Clipboard Access</b></summary>
+<summary><b>📺 YouTube Automation</b></summary>
 
-Jarvis can read whatever text you currently have copied to your clipboard. This means you can copy a block of code, an error message, or a paragraph of text, and then simply say "Jarvis, explain what I just copied" — and he'll read your clipboard and respond with context-aware analysis.
-
-</details>
-
-<details>
-<summary><b>⏰ Smart Reminders</b></summary>
-
-Tell Jarvis to remind you about something at a specific time (e.g., "Remind me to call Mom at 6 PM"), and he will schedule a delayed notification. When the time comes, he sends the reminder directly to your phone via **Telegram**. No need for a separate reminders app — your AI handles it.
+Tell Jarvis to play something on YouTube (e.g., "Play the latest MKBHD video"), and he'll open your default browser and navigate directly to YouTube's search results page with the exact query. Quick and simple — no API keys, no setup.
 
 </details>
 
 <details>
-<summary><b>📧 Gmail Integration</b></summary>
+<summary><b>📱 Instagram Researcher</b></summary>
 
-Jarvis can connect to your Gmail account using a secure **App Password** (not your main password). He can:
-- 📥 **Read your latest unread emails** and summarize them for you
-- 📤 **Compose and send emails** on your behalf, including with file attachments
-- Supports **multiple Gmail accounts** — just configure a second set of credentials in your `.env` file
-
-</details>
-
-<details>
-<summary><b>🛡️ Action Confirmation Gate</b></summary>
-
-Safety first. Jarvis maintains a `DANGEROUS_TOOLS` list that includes actions like formatting drives, permanently deleting files, and emptying the recycle bin. Before executing any of these, the system **intercepts the AI's intent** and forces a manual confirmation popup in the Web UI. This ensures that even if the AI hallucinates or misunderstands a command, it can never accidentally destroy your data without your explicit approval.
-
-</details>
-
-<details>
-<summary><b>🧬 Neural Hot-Swapping</b></summary>
-
-Jarvis doesn't depend on a single AI provider. If your primary provider (e.g., Google Gemini) hits a rate limit (HTTP 429), the system **automatically and seamlessly switches** to the next backup provider in your configured chain (e.g., NVIDIA → Mistral → another Gemini key). You can configure up to **5 backup providers** in your `.env` file. When rate limits clear, it swaps back to the primary. You never experience downtime.
+Give Jarvis one or more public Instagram handles and a question (e.g., "What kind of content does this person post?"), and he will scrape the profile pages using a headless browser, extract bio info, post captions, and engagement data, and then generate an **analytical report** answering your question. Useful for competitive research, influencer analysis, or simple curiosity.
 
 </details>
 
@@ -197,9 +225,16 @@ Give Jarvis a Google Drive shared link, and he'll download the file (or entire f
 </details>
 
 <details>
-<summary><b>🧠 Vector Memory (RAG)</b></summary>
+<summary><b>📋 Clipboard Access</b></summary>
 
-Jarvis has **persistent long-term memory** powered by semantic vector embeddings. When you tell him something important (e.g., "My favorite programming language is Python"), he stores it as a vector. Later, when a relevant topic comes up, he performs a **semantic similarity search** to recall the right memories — even if you used different words. This is a full Retrieval-Augmented Generation (RAG) pipeline running locally.
+Jarvis can read whatever text you currently have copied to your clipboard. This means you can copy a block of code, an error message, or a paragraph of text, and then simply say "Jarvis, explain what I just copied" — and he'll read your clipboard and respond with context-aware analysis.
+
+</details>
+
+<details>
+<summary><b>⏰ Smart Reminders</b></summary>
+
+Tell Jarvis to remind you about something at a specific time (e.g., "Remind me to call Mom at 6 PM"), and he will schedule a delayed notification. When the time comes, he sends the reminder directly to your phone via **Telegram**. No need for a separate reminders app — your AI handles it.
 
 </details>
 
@@ -212,48 +247,6 @@ Jarvis has an extensible plugin architecture. Skills are simple `.md` or `.txt` 
 - 🗑️ **Delete skills** you no longer need
 
 This lets you customize Jarvis's behavior without touching any Python code.
-
-</details>
-
-<details>
-<summary><b>🚀 Smart App Locator</b></summary>
-
-The most carefully engineered module in the entire project. It pulls application data from **four different sources**: PowerShell's `Get-StartApps`, the Windows Registry App Paths, Start Menu `.lnk` shortcut files, and the system `PATH` environment variable. It then uses **fuzzy string matching** to find the best match for whatever app name you say — even if you get the name slightly wrong.
-
-</details>
-
-<details>
-<summary><b>🧑‍💻 Dedicated Coding Mode</b></summary>
-
-When you ask Jarvis to write complex code, debug a script, or do heavy programming work, he can temporarily **hot-swap his AI brain** from a lightweight model (like Gemini Flash) to NVIDIA's massive **Llama 3.1 70B** model — specifically optimized for code generation. Once the coding task is done, he seamlessly swaps back to the faster model for regular conversation.
-
-</details>
-
-<details>
-<summary><b>📺 YouTube Automation</b></summary>
-
-Tell Jarvis to play something on YouTube (e.g., "Play the latest MKBHD video"), and he'll open your default browser and navigate directly to YouTube's search results page with the exact query. Quick and simple — no API keys, no setup.
-
-</details>
-
-<details>
-<summary><b>🧹 Show Desktop Panic Button</b></summary>
-
-Jarvis has direct access to the Windows Shell API. With a single command, he can instantly **minimize every open window** on your desktop. Useful for quickly clearing your screen, or as a precursor to taking a clean screenshot for Screen Analysis.
-
-</details>
-
-<details>
-<summary><b>📲 PC-to-Phone File Transfer</b></summary>
-
-Because Jarvis is connected to your Telegram bot, he can do more than just send text messages. He can **extract or generate files on your PC** (PDFs, screenshots, documents) and push them directly to your Telegram app on your phone. For example: "Jarvis, generate a syllabus PDF for my biology class and send it to my phone."
-
-</details>
-
-<details>
-<summary><b>🎯 Anti-Procrastination Telemetry</b></summary>
-
-The Proactive Engine silently monitors which application window is currently active on your screen using `ctypes` Windows API calls. It feeds this information (e.g., "YouTube - Google Chrome" vs. "Visual Studio Code") into the AI alongside your tracked goals. If it detects you're procrastinating, Jarvis can autonomously send you a **motivational nudge** via Telegram to get you back on track.
 
 </details>
 
@@ -271,40 +264,47 @@ The Web HUD includes a **Settings panel** that lets you change your AI provider,
 
 </details>
 
+<details>
+<summary><b>🧹 Show Desktop Panic Button</b></summary>
+
+Jarvis has direct access to the Windows Shell API. With a single command, he can instantly **minimize every open window** on your desktop. Useful for quickly clearing your screen, or as a precursor to taking a clean screenshot for Screen Analysis.
+
+</details>
+
 ---
 
 ## 📁 Directory Structure
 
 ```
 Nexus-VII-Autonomous-Intelligence/
-â”œâ”€â”€ api/             # External service integrations (Telegram bot, reminders)
-â”œâ”€â”€ auth/            # Google OAuth credentials (you provide these)
-â”œâ”€â”€ core/            # Main AI engine, server, vector memory, proactive engine
-â”œâ”€â”€ data/            # Local databases, caches, memory, and goals
-â”œâ”€â”€ docs/            # Project documentation and ideas
-â”œâ”€â”€ modules/         # Specialized modules (OCR, Calendar, Drive, PDF, App Locator)
-â”œâ”€â”€ scripts/         # Utility scripts (Syllabus generator, file organizer)
-â”œâ”€â”€ skills/          # AI behavior rules and skill files (.md/.txt)
-â”œâ”€â”€ static/          # Web UI (HTML, CSS, JS, particles)
-â”œâ”€â”€ temp/            # Temporary processing files
-â”œâ”€â”€ tests/           # Test scripts
-â”œâ”€â”€ .env.example     # Environment variable template (copy to .env)
-â”œâ”€â”€ launch_jarvis.bat# One-click launcher for Windows
-â””â”€â”€ requirements.txt # Python dependencies
+├── api/             # External service integrations (Telegram bot, reminders)
+├── auth/            # Google OAuth credentials (you provide these)
+├── core/            # Main AI engine, server, vector memory, proactive engine
+├── data/            # Local databases, caches, memory, and goals
+├── docs/            # Project documentation and ideas
+├── modules/         # Specialized modules (OCR, Calendar, Drive, PDF, App Locator)
+├── scripts/         # Utility scripts (Syllabus generator, file organizer)
+├── skills/          # AI behavior rules and skill files (.md/.txt)
+├── static/          # Web UI (HTML, CSS, JS, particles)
+├── temp/            # Temporary processing files
+├── tests/           # Test scripts
+├── .env.example     # Environment variable template (copy to .env)
+├── launch_jarvis.bat# One-click launcher for Windows
+└── requirements.txt # Python dependencies
 ```
 
 ---
 
-## ðŸš€ Quick Start (Step-by-Step)
+## 🚀 Quick Start (Step-by-Step)
 
 Follow these steps exactly and you will have Nexus VII running in under 5 minutes.
 
 ### Prerequisites
 
-- **Python 3.10+** â†’ [Download here](https://www.python.org/downloads/) âš ï¸ **Check "Add Python to PATH"** during installation!
-- **Windows 10/11** â†’ This project uses Windows-specific APIs (registry, PowerShell, etc.)
-- **Git** â†’ [Download here](https://git-scm.com/)
-- **Spotify Desktop** â†’ (Optional) Required for Spotify automation (must be installed and logged in)
+- **Python 3.10+** → [Download here](https://www.python.org/downloads/) ⚠️ **Check "Add Python to PATH"** during installation!
+- **Windows 10/11** → This project uses Windows-specific APIs (registry, PowerShell, etc.)
+- **Git** → [Download here](https://git-scm.com/)
+- **Spotify Desktop** → (Optional) Required for Spotify automation (must be installed and logged in)
 
 ### Step 1: Clone the Repository
 
@@ -320,7 +320,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-> âš ï¸ If `python` is not recognized, try `py` instead of `python`.
+> ⚠️ If `python` is not recognized, try `py` instead of `python`.
 
 ### Step 3: Install Dependencies
 
@@ -328,7 +328,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-This will install all required packages. It may take 2â€“5 minutes on the first run.
+This will install all required packages. It may take 2–5 minutes on the first run.
 
 ### Step 4: Install Playwright Browsers
 
@@ -353,15 +353,15 @@ copy .env.example .env
 
 Open the `.env` file in any text editor (Notepad, VS Code, etc.) and fill in your API keys:
 
-#### ðŸ”‘ Required (at minimum one AI key)
+#### 🔑 Required (at minimum one AI key)
 
 | Variable | Where to Get It |
 |----------|----------------|
-| `AI_API_KEY` | [Google AI Studio](https://aistudio.google.com/) â€” **free** |
+| `AI_API_KEY` | [Google AI Studio](https://aistudio.google.com/) — **free** |
 | `AI_BASE_URL` | Pre-filled for Gemini. Change if using Groq/Ollama. |
 | `AI_MODEL` | Pre-filled. Change if using a different model. |
 
-#### ðŸ”Œ Optional Integrations
+#### 🔌 Optional Integrations
 
 | Variable | Where to Get It |
 |----------|----------------|
@@ -381,11 +381,11 @@ To enable Google Calendar and Drive features:
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
 2. Create a new project (or select an existing one).
 3. Enable the **Google Calendar API** and **Google Drive API**.
-4. Go to **Credentials** â†’ **Create Credentials** â†’ **OAuth 2.0 Client ID**.
+4. Go to **Credentials** → **Create Credentials** → **OAuth 2.0 Client ID**.
 5. Download the JSON file and save it as `auth/credentials.json`.
 6. On first use, a browser window will open for you to authorize access. The resulting `auth/token.json` will be created automatically.
 
-### Step 8: Launch! ðŸš€
+### Step 8: Launch! 🚀
 
 **Option A: One-click (recommended)**
 ```bash
@@ -398,11 +398,11 @@ venv\Scripts\activate
 python core/server.py
 ```
 
-Then open **http://localhost:8000** in your browser. You're in! ðŸŽ‰
+Then open **http://localhost:8000** in your browser. You're in! 🎉
 
 ---
 
-## ðŸ–¥ï¸ Web UI
+## 🖥️ Web UI
 
 The HUD (Heads-Up Display) runs in your browser and provides:
 
@@ -415,7 +415,7 @@ The HUD (Heads-Up Display) runs in your browser and provides:
 
 ---
 
-## ðŸ¤– Telegram Setup
+## 🤖 Telegram Setup
 
 1. Open Telegram and message [@BotFather](https://t.me/BotFather).
 2. Send `/newbot` and follow the prompts to create your bot.
@@ -426,7 +426,7 @@ The HUD (Heads-Up Display) runs in your browser and provides:
 
 ---
 
-## ðŸ§¬ Supported AI Providers
+## 🧬 Supported AI Providers
 
 | Provider | Base URL | Models |
 |----------|----------|--------|
@@ -440,7 +440,7 @@ The neural hot-swapping system automatically rotates through your configured bac
 
 ---
 
-## ðŸ“œ Scripts
+## 📜 Scripts
 
 Utility scripts in the `scripts/` folder:
 
@@ -451,7 +451,7 @@ Utility scripts in the `scripts/` folder:
 
 ---
 
-## ðŸ”’ Security Notes
+## 🔒 Security Notes
 
 - Your `.env` file is **gitignored** and will never be committed.
 - `auth/credentials.json` and `auth/token.json` are **gitignored**.
@@ -460,7 +460,7 @@ Utility scripts in the `scripts/` folder:
 
 ---
 
-## â“ Troubleshooting
+## ❓ Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
@@ -472,13 +472,13 @@ Utility scripts in the `scripts/` folder:
 
 ---
 
-## ðŸ“ License
+## 📝 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## ðŸ™ Acknowledgments
+## 🙏 Acknowledgments
 
 Inspired by J.A.R.V.I.S. from the Marvel Cinematic Universe.
 Built with Python, FastAPI, and Playwright.
