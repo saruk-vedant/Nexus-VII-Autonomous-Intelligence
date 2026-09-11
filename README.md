@@ -1,95 +1,95 @@
-<div align="center">
+﻿<div align="center">
 
-# 🧠 Nexus VII — Autonomous Intelligence
+# ðŸ§  Nexus VII â€” Autonomous Intelligence
 
 **A J.A.R.V.I.S.-inspired autonomous AI assistant with voice control, Telegram integration, proactive reminders, web form automation, screen analysis, and neural hot-swapping across multiple AI providers.**
 
-Built with Python · FastAPI · WebSockets
+Built with Python Â· FastAPI Â· WebSockets
 
 <br>
-<img src="https://img.shields.io/github/license/sarukvedant-crypto/Nexus-VII-Autonomous-Intelligence?style=flat-square" alt="License">
-<img src="https://img.shields.io/github/stars/sarukvedant-crypto/Nexus-VII-Autonomous-Intelligence?style=flat-square" alt="Stars">
-<img src="https://img.shields.io/github/forks/sarukvedant-crypto/Nexus-VII-Autonomous-Intelligence?style=flat-square" alt="Forks">
-<img src="https://img.shields.io/github/issues/sarukvedant-crypto/Nexus-VII-Autonomous-Intelligence?style=flat-square" alt="Issues">
+<img src="https://img.shields.io/github/license/saruk-vedant/Nexus-VII-Autonomous-Intelligence?style=flat-square" alt="License">
+<img src="https://img.shields.io/github/stars/saruk-vedant/Nexus-VII-Autonomous-Intelligence?style=flat-square" alt="Stars">
+<img src="https://img.shields.io/github/forks/saruk-vedant/Nexus-VII-Autonomous-Intelligence?style=flat-square" alt="Forks">
+<img src="https://img.shields.io/github/issues/saruk-vedant/Nexus-VII-Autonomous-Intelligence?style=flat-square" alt="Issues">
 <br>
 
 </div>
 
 ---
 
-## ✨ Features
+## âœ¨ Features
 
 | Feature | Description |
 |---------|-------------|
-| **🗣️ Wake-Word Activation** | Hands-free experience. Just say "Jarvis" to wake the system, activate the Web UI, and start recording your input. |
-| **🎙️ Voice Control** | Speak to your assistant using real-time speech recognition and human-like TTS responses. |
-| **📱 Telegram Bot** | Remote control and notifications via a personal Telegram bot. |
-| **🔄 Proactive Engine** | Autonomous background AI that monitors your goals and sends nudges. |
-| **🕵️ Silent Web Research** | Background web searches to fact-check or gather context before responding, without clogging the chat. |
-| **📝 Web Form Automation** | AI-powered Google Forms and web form filling via Playwright. |
-| **👁️ Screen Analysis** | Visual awareness of your desktop. Ask "Look at my screen" to take a screenshot and get contextual advice. |
-| **📱 Instagram Researcher** | Built-in ability to scrape public Instagram profiles and generate analytical reports on them. |
-| **🗂️ App Management** | Open and close specific applications, or execute a "focus mode" by closing all non-essential apps. |
-| **📁 File System Mastery** | Read, write, move, delete, and create files/folders anywhere. Compile text into formatted PDFs. |
-| **⚙️ System Operations** | Lock screen, adjust master volume, empty recycle bin, put PC to sleep, restart, or format drives. |
-| **🎵 Spotify Integration** | Search for and play specific songs, artists, or playlists on Spotify desktop, and control media playback. |
-| **📋 Clipboard Access** | Read whatever text you currently have copied to your clipboard. |
-| **⏰ Smart Reminders** | Schedule delayed pings to your phone by setting a reminder at a specific time. |
-| **📧 Gmail Integration** | Read your latest unread emails and compose/send new emails on your behalf. |
-| **🛡️ Action Confirmation Gate** | Intercepts highly destructive actions (like formatting a drive) and forces a manual prompt for safety. |
-| **🧬 Neural Hot-Swapping** | Seamless automatic failover across multiple AI providers when rate limits hit. |
-| **📅 Google Calendar** | Check and create calendar events via the Google Calendar API. |
-| **📂 Google Drive** | Download files and entire folders from Google Drive shared links. |
-| **🧠 Vector Memory** | Persistent long-term memory with semantic recall (RAG). |
-| **🎯 Skills System** | Extensible skill/plugin system to teach your AI new behaviors. |
-| **🚀 Smart App Locator** | Dynamically finds and launches Windows apps using deep registry scanning. |
-| **🧑‍💻 Dedicated Coding Mode** | Hot-swaps to NVIDIA's massive Llama 3.1 70B model specifically for complex coding tasks. |
-| **📺 YouTube Automation** | Autonomously opens your browser and runs specific YouTube search queries. |
-| **🧹 Show Desktop Panic Button** | Instantly minimize every single window on your computer using Windows shell APIs. |
-| **📲 PC-to-Phone File Transfer** | Generates or extracts files from your PC and sends them directly to your Telegram app. |
-| **🎯 Anti-Procrastination Telemetry** | Silently checks the active screen window to send context-aware nudges if you are distracted. |
-| **🧩 Drag-and-Drop Skill Hub** | Install new capabilities by dropping Python scripts or URLs directly into the Web HUD. |
-| **🎛️ Live Configuration Panel** | Securely edit API keys and settings in real-time from the web interface. |
+| **ðŸ—£ï¸ Wake-Word Activation** | Hands-free experience. Just say "Jarvis" to wake the system, activate the Web UI, and start recording your input. |
+| **ðŸŽ™ï¸ Voice Control** | Speak to your assistant using real-time speech recognition and human-like TTS responses. |
+| **ðŸ“± Telegram Bot** | Remote control and notifications via a personal Telegram bot. |
+| **ðŸ”„ Proactive Engine** | Autonomous background AI that monitors your goals and sends nudges. |
+| **ðŸ•µï¸ Silent Web Research** | Background web searches to fact-check or gather context before responding, without clogging the chat. |
+| **ðŸ“ Web Form Automation** | AI-powered Google Forms and web form filling via Playwright. |
+| **ðŸ‘ï¸ Screen Analysis** | Visual awareness of your desktop. Ask "Look at my screen" to take a screenshot and get contextual advice. |
+| **ðŸ“± Instagram Researcher** | Built-in ability to scrape public Instagram profiles and generate analytical reports on them. |
+| **ðŸ—‚ï¸ App Management** | Open and close specific applications, or execute a "focus mode" by closing all non-essential apps. |
+| **ðŸ“ File System Mastery** | Read, write, move, delete, and create files/folders anywhere. Compile text into formatted PDFs. |
+| **âš™ï¸ System Operations** | Lock screen, adjust master volume, empty recycle bin, put PC to sleep, restart, or format drives. |
+| **ðŸŽµ Spotify Integration** | Search for and play specific songs, artists, or playlists on Spotify desktop, and control media playback. |
+| **ðŸ“‹ Clipboard Access** | Read whatever text you currently have copied to your clipboard. |
+| **â° Smart Reminders** | Schedule delayed pings to your phone by setting a reminder at a specific time. |
+| **ðŸ“§ Gmail Integration** | Read your latest unread emails and compose/send new emails on your behalf. |
+| **ðŸ›¡ï¸ Action Confirmation Gate** | Intercepts highly destructive actions (like formatting a drive) and forces a manual prompt for safety. |
+| **ðŸ§¬ Neural Hot-Swapping** | Seamless automatic failover across multiple AI providers when rate limits hit. |
+| **ðŸ“… Google Calendar** | Check and create calendar events via the Google Calendar API. |
+| **ðŸ“‚ Google Drive** | Download files and entire folders from Google Drive shared links. |
+| **ðŸ§  Vector Memory** | Persistent long-term memory with semantic recall (RAG). |
+| **ðŸŽ¯ Skills System** | Extensible skill/plugin system to teach your AI new behaviors. |
+| **ðŸš€ Smart App Locator** | Dynamically finds and launches Windows apps using deep registry scanning. |
+| **ðŸ§‘â€ðŸ’» Dedicated Coding Mode** | Hot-swaps to NVIDIA's massive Llama 3.1 70B model specifically for complex coding tasks. |
+| **ðŸ“º YouTube Automation** | Autonomously opens your browser and runs specific YouTube search queries. |
+| **ðŸ§¹ Show Desktop Panic Button** | Instantly minimize every single window on your computer using Windows shell APIs. |
+| **ðŸ“² PC-to-Phone File Transfer** | Generates or extracts files from your PC and sends them directly to your Telegram app. |
+| **ðŸŽ¯ Anti-Procrastination Telemetry** | Silently checks the active screen window to send context-aware nudges if you are distracted. |
+| **ðŸ§© Drag-and-Drop Skill Hub** | Install new capabilities by dropping Python scripts or URLs directly into the Web HUD. |
+| **ðŸŽ›ï¸ Live Configuration Panel** | Securely edit API keys and settings in real-time from the web interface. |
 
 ---
 
-## 📁 Directory Structure
+## ðŸ“ Directory Structure
 
 ```
 Nexus-VII-Autonomous-Intelligence/
-├── api/             # External service integrations (Telegram bot, reminders)
-├── auth/            # Google OAuth credentials (you provide these)
-├── core/            # Main AI engine, server, vector memory, proactive engine
-├── data/            # Local databases, caches, memory, and goals
-├── docs/            # Project documentation and ideas
-├── modules/         # Specialized modules (OCR, Calendar, Drive, PDF, App Locator)
-├── scripts/         # Utility scripts (Syllabus generator, file organizer)
-├── skills/          # AI behavior rules and skill files (.md/.txt)
-├── static/          # Web UI (HTML, CSS, JS, particles)
-├── temp/            # Temporary processing files
-├── tests/           # Test scripts
-├── .env.example     # Environment variable template (copy to .env)
-├── launch_jarvis.bat# One-click launcher for Windows
-└── requirements.txt # Python dependencies
+â”œâ”€â”€ api/             # External service integrations (Telegram bot, reminders)
+â”œâ”€â”€ auth/            # Google OAuth credentials (you provide these)
+â”œâ”€â”€ core/            # Main AI engine, server, vector memory, proactive engine
+â”œâ”€â”€ data/            # Local databases, caches, memory, and goals
+â”œâ”€â”€ docs/            # Project documentation and ideas
+â”œâ”€â”€ modules/         # Specialized modules (OCR, Calendar, Drive, PDF, App Locator)
+â”œâ”€â”€ scripts/         # Utility scripts (Syllabus generator, file organizer)
+â”œâ”€â”€ skills/          # AI behavior rules and skill files (.md/.txt)
+â”œâ”€â”€ static/          # Web UI (HTML, CSS, JS, particles)
+â”œâ”€â”€ temp/            # Temporary processing files
+â”œâ”€â”€ tests/           # Test scripts
+â”œâ”€â”€ .env.example     # Environment variable template (copy to .env)
+â”œâ”€â”€ launch_jarvis.bat# One-click launcher for Windows
+â””â”€â”€ requirements.txt # Python dependencies
 ```
 
 ---
 
-## 🚀 Quick Start (Step-by-Step)
+## ðŸš€ Quick Start (Step-by-Step)
 
 Follow these steps exactly and you will have Nexus VII running in under 5 minutes.
 
 ### Prerequisites
 
-- **Python 3.10+** → [Download here](https://www.python.org/downloads/) ⚠️ **Check "Add Python to PATH"** during installation!
-- **Windows 10/11** → This project uses Windows-specific APIs (registry, PowerShell, etc.)
-- **Git** → [Download here](https://git-scm.com/)
-- **Spotify Desktop** → (Optional) Required for Spotify automation (must be installed and logged in)
+- **Python 3.10+** â†’ [Download here](https://www.python.org/downloads/) âš ï¸ **Check "Add Python to PATH"** during installation!
+- **Windows 10/11** â†’ This project uses Windows-specific APIs (registry, PowerShell, etc.)
+- **Git** â†’ [Download here](https://git-scm.com/)
+- **Spotify Desktop** â†’ (Optional) Required for Spotify automation (must be installed and logged in)
 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/sarukvedant-crypto/Nexus-VII-Autonomous-Intelligence.git
+git clone https://github.com/saruk-vedant/Nexus-VII-Autonomous-Intelligence.git
 cd Nexus-VII-Autonomous-Intelligence
 ```
 
@@ -100,7 +100,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-> ⚠️ If `python` is not recognized, try `py` instead of `python`.
+> âš ï¸ If `python` is not recognized, try `py` instead of `python`.
 
 ### Step 3: Install Dependencies
 
@@ -108,7 +108,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-This will install all required packages. It may take 2–5 minutes on the first run.
+This will install all required packages. It may take 2â€“5 minutes on the first run.
 
 ### Step 4: Install Playwright Browsers
 
@@ -133,15 +133,15 @@ copy .env.example .env
 
 Open the `.env` file in any text editor (Notepad, VS Code, etc.) and fill in your API keys:
 
-#### 🔑 Required (at minimum one AI key)
+#### ðŸ”‘ Required (at minimum one AI key)
 
 | Variable | Where to Get It |
 |----------|----------------|
-| `AI_API_KEY` | [Google AI Studio](https://aistudio.google.com/) — **free** |
+| `AI_API_KEY` | [Google AI Studio](https://aistudio.google.com/) â€” **free** |
 | `AI_BASE_URL` | Pre-filled for Gemini. Change if using Groq/Ollama. |
 | `AI_MODEL` | Pre-filled. Change if using a different model. |
 
-#### 🔌 Optional Integrations
+#### ðŸ”Œ Optional Integrations
 
 | Variable | Where to Get It |
 |----------|----------------|
@@ -161,11 +161,11 @@ To enable Google Calendar and Drive features:
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
 2. Create a new project (or select an existing one).
 3. Enable the **Google Calendar API** and **Google Drive API**.
-4. Go to **Credentials** → **Create Credentials** → **OAuth 2.0 Client ID**.
+4. Go to **Credentials** â†’ **Create Credentials** â†’ **OAuth 2.0 Client ID**.
 5. Download the JSON file and save it as `auth/credentials.json`.
 6. On first use, a browser window will open for you to authorize access. The resulting `auth/token.json` will be created automatically.
 
-### Step 8: Launch! 🚀
+### Step 8: Launch! ðŸš€
 
 **Option A: One-click (recommended)**
 ```bash
@@ -178,11 +178,11 @@ venv\Scripts\activate
 python core/server.py
 ```
 
-Then open **http://localhost:8000** in your browser. You're in! 🎉
+Then open **http://localhost:8000** in your browser. You're in! ðŸŽ‰
 
 ---
 
-## 🖥️ Web UI
+## ðŸ–¥ï¸ Web UI
 
 The HUD (Heads-Up Display) runs in your browser and provides:
 
@@ -195,7 +195,7 @@ The HUD (Heads-Up Display) runs in your browser and provides:
 
 ---
 
-## 🤖 Telegram Setup
+## ðŸ¤– Telegram Setup
 
 1. Open Telegram and message [@BotFather](https://t.me/BotFather).
 2. Send `/newbot` and follow the prompts to create your bot.
@@ -206,7 +206,7 @@ The HUD (Heads-Up Display) runs in your browser and provides:
 
 ---
 
-## 🧬 Supported AI Providers
+## ðŸ§¬ Supported AI Providers
 
 | Provider | Base URL | Models |
 |----------|----------|--------|
@@ -220,7 +220,7 @@ The neural hot-swapping system automatically rotates through your configured bac
 
 ---
 
-## 📜 Scripts
+## ðŸ“œ Scripts
 
 Utility scripts in the `scripts/` folder:
 
@@ -231,7 +231,7 @@ Utility scripts in the `scripts/` folder:
 
 ---
 
-## 🔒 Security Notes
+## ðŸ”’ Security Notes
 
 - Your `.env` file is **gitignored** and will never be committed.
 - `auth/credentials.json` and `auth/token.json` are **gitignored**.
@@ -240,7 +240,7 @@ Utility scripts in the `scripts/` folder:
 
 ---
 
-## ❓ Troubleshooting
+## â“ Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
@@ -252,13 +252,13 @@ Utility scripts in the `scripts/` folder:
 
 ---
 
-## 📝 License
+## ðŸ“ License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 🙏 Acknowledgments
+## ðŸ™ Acknowledgments
 
 Inspired by J.A.R.V.I.S. from the Marvel Cinematic Universe.
 Built with Python, FastAPI, and Playwright.
