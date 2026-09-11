@@ -147,7 +147,7 @@ Open the `.env` file in any text editor (Notepad, VS Code, etc.) and fill in you
 |----------|----------------|
 | `GEMINI_API_KEY` | Same as above, used for vision & memory features |
 | `NVIDIA_API_KEY` | [NVIDIA Build](https://build.nvidia.com/) |
-| `NEMOTRON_API_KEY` | [NVIDIA Build](https://build.nvidia.com/) (Required for OCR / Screen Analysis) |
+| `NEMOTRON_API_KEY` | [NVIDIA Build](https://build.nvidia.com/) (Optional — OCR falls back to Gemini if not set) |
 | `BACKUP_*` keys | Additional API keys for hot-swap failover |
 | `GMAIL_ADDRESS` | Your Gmail address |
 | `GMAIL_APP_PASSWORD` | [Google App Passwords](https://myaccount.google.com/apppasswords) (requires 2FA) |
