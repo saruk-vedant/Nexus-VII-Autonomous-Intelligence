@@ -49,11 +49,231 @@ Built with Python Â· FastAPI Â· WebSockets
 | **ðŸ“² PC-to-Phone File Transfer** | Generates or extracts files from your PC and sends them directly to your Telegram app. |
 | **ðŸŽ¯ Anti-Procrastination Telemetry** | Silently checks the active screen window to send context-aware nudges if you are distracted. |
 | **ðŸ§© Drag-and-Drop Skill Hub** | Install new capabilities by dropping Python scripts or URLs directly into the Web HUD. |
-| **ðŸŽ›ï¸ Live Configuration Panel** | Securely edit API keys and settings in real-time from the web interface. |
+| **ðŸŽ›ï¸  Live Configuration Panel** | Securely edit API keys and settings in real-time from the web interface. |
 
 ---
 
-## ðŸ“ Directory Structure
+## 🔍 Feature Deep Dive
+
+<details>
+<summary><b>🗣️ Wake-Word Activation</b></summary>
+
+No buttons, no typing. Just say **"Jarvis"** out loud, and the system wakes up instantly. It activates the Web UI, begins recording your voice input, transcribes it using AI-powered speech recognition, and sends your command to the AI brain — all hands-free. It's the closest thing to having a real J.A.R.V.I.S. on your desktop.
+
+</details>
+
+<details>
+<summary><b>🎙️ Voice Control</b></summary>
+
+Jarvis uses real-time speech recognition (via Whisper on Groq or Google's free Speech-to-Text as a fallback) to understand your spoken commands. When he responds, he speaks back to you using **Edge TTS** with a selection of natural, human-like voices. You can even interrupt him mid-sentence by speaking again — he'll stop talking and listen.
+
+</details>
+
+<details>
+<summary><b>📱 Telegram Bot</b></summary>
+
+Your personal remote control. Once configured, you can message your Jarvis bot from anywhere in the world — from your phone, tablet, or another computer. Send text commands and get full AI responses back. The bot is **locked to your Telegram user ID**, so nobody else can use it. Jarvis can also proactively message you with reminders, goal nudges, and file transfers.
+
+</details>
+
+<details>
+<summary><b>🔄 Proactive Engine</b></summary>
+
+Unlike normal AI assistants that only respond when spoken to, Jarvis has an **autonomous background loop** that runs silently. It loads your personal goals, checks what app you currently have open on screen (Anti-Procrastination Telemetry), reviews your memory, and decides on its own whether to send you a motivational nudge or a reminder via Telegram. It's like having a personal productivity coach watching over your shoulder.
+
+</details>
+
+<details>
+<summary><b>🕵️ Silent Web Research</b></summary>
+
+When Jarvis isn't sure about something, he doesn't just guess — he secretly opens a headless browser, performs a web search, scrapes the top results, and reads through them **before** answering you. You never see the search happening; you just get a well-informed, fact-checked response. This runs entirely in the background without cluttering your chat.
+
+</details>
+
+<details>
+<summary><b>📝 Web Form Automation</b></summary>
+
+Give Jarvis a Google Form URL (or any web form), tell him what to fill in, and he'll launch a headless Chromium browser via **Playwright**, navigate to the page, intelligently identify form fields, fill them out, and submit — all autonomously. You can even tell him to submit the form multiple times with different data. Perfect for repetitive data entry tasks.
+
+</details>
+
+<details>
+<summary><b>👁️ Screen Analysis</b></summary>
+
+Jarvis has **visual awareness** of your physical desktop. If you say "What's on my screen?" or "Look at this error," he will silently take a screenshot of your monitor, encode it, and send it to an AI Vision model (NVIDIA Nemotron or Google Gemini). He then analyzes the image and gives you contextual advice based on exactly what you're looking at — whether it's a code error, a settings page, or a document.
+
+</details>
+
+<details>
+<summary><b>📱 Instagram Researcher</b></summary>
+
+Give Jarvis one or more public Instagram handles and a question (e.g., "What kind of content does this person post?"), and he will scrape the profile pages using a headless browser, extract bio info, post captions, and engagement data, and then generate an **analytical report** answering your question. Useful for competitive research, influencer analysis, or simple curiosity.
+
+</details>
+
+<details>
+<summary><b>🗂️ App Management</b></summary>
+
+Jarvis can open any application on your Windows PC by name — even if it's buried deep in your Start Menu or registry. He uses a **Smart App Locator** that searches PowerShell's `Get-StartApps`, the Windows Registry, Start Menu `.lnk` files, and your system `PATH`, then uses fuzzy matching to find the best match. He can also close specific apps, or activate a **"Focus Mode"** that kills every application except the ones you whitelist.
+
+</details>
+
+<details>
+<summary><b>📁 File System Mastery</b></summary>
+
+Full read/write access to your entire file system. Jarvis can create, read, write, move, and delete files and folders anywhere on your computer. He can also compile text content into **beautifully formatted PDF documents** using themed HTML templates rendered through Chromium. Need a report, a syllabus, or meeting notes turned into a polished PDF? Just ask.
+
+</details>
+
+<details>
+<summary><b>⚙️ System Operations</b></summary>
+
+Deep Windows integration via `pywin32` and `ctypes`. Jarvis can:
+- 🔒 **Lock your screen** instantly
+- 🔊 **Adjust your master volume** to an exact percentage
+- 🗑️ **Empty the Recycle Bin** (with confirmation)
+- 😴 **Put your PC to sleep**, restart, or shut down
+- 💽 **Format disk drives** (with a mandatory safety confirmation gate)
+
+</details>
+
+<details>
+<summary><b>🎵 Spotify Integration</b></summary>
+
+Tell Jarvis to play a song, artist, or playlist, and he'll open your **Spotify Desktop app**, launch a headless browser to search Spotify's web player, find the exact track, and trigger playback — all **without needing Spotify API keys**. He can also control media playback: play, pause, skip to the next track, or go back to the previous one using simulated keyboard media keys.
+
+</details>
+
+<details>
+<summary><b>📋 Clipboard Access</b></summary>
+
+Jarvis can read whatever text you currently have copied to your clipboard. This means you can copy a block of code, an error message, or a paragraph of text, and then simply say "Jarvis, explain what I just copied" — and he'll read your clipboard and respond with context-aware analysis.
+
+</details>
+
+<details>
+<summary><b>⏰ Smart Reminders</b></summary>
+
+Tell Jarvis to remind you about something at a specific time (e.g., "Remind me to call Mom at 6 PM"), and he will schedule a delayed notification. When the time comes, he sends the reminder directly to your phone via **Telegram**. No need for a separate reminders app — your AI handles it.
+
+</details>
+
+<details>
+<summary><b>📧 Gmail Integration</b></summary>
+
+Jarvis can connect to your Gmail account using a secure **App Password** (not your main password). He can:
+- 📥 **Read your latest unread emails** and summarize them for you
+- 📤 **Compose and send emails** on your behalf, including with file attachments
+- Supports **multiple Gmail accounts** — just configure a second set of credentials in your `.env` file
+
+</details>
+
+<details>
+<summary><b>🛡️ Action Confirmation Gate</b></summary>
+
+Safety first. Jarvis maintains a `DANGEROUS_TOOLS` list that includes actions like formatting drives, permanently deleting files, and emptying the recycle bin. Before executing any of these, the system **intercepts the AI's intent** and forces a manual confirmation popup in the Web UI. This ensures that even if the AI hallucinates or misunderstands a command, it can never accidentally destroy your data without your explicit approval.
+
+</details>
+
+<details>
+<summary><b>🧬 Neural Hot-Swapping</b></summary>
+
+Jarvis doesn't depend on a single AI provider. If your primary provider (e.g., Google Gemini) hits a rate limit (HTTP 429), the system **automatically and seamlessly switches** to the next backup provider in your configured chain (e.g., NVIDIA → Mistral → another Gemini key). You can configure up to **5 backup providers** in your `.env` file. When rate limits clear, it swaps back to the primary. You never experience downtime.
+
+</details>
+
+<details>
+<summary><b>📅 Google Calendar</b></summary>
+
+After a one-time OAuth setup, Jarvis can check your upcoming calendar events and create new ones — complete with title, start time, duration, description, and attendee invitations. Just say "What's on my calendar today?" or "Schedule a meeting with John at 3 PM tomorrow."
+
+</details>
+
+<details>
+<summary><b>📂 Google Drive</b></summary>
+
+Give Jarvis a Google Drive shared link, and he'll download the file (or entire folder) directly to your computer. Useful for quickly grabbing shared documents, datasets, or media files without opening a browser.
+
+</details>
+
+<details>
+<summary><b>🧠 Vector Memory (RAG)</b></summary>
+
+Jarvis has **persistent long-term memory** powered by semantic vector embeddings. When you tell him something important (e.g., "My favorite programming language is Python"), he stores it as a vector. Later, when a relevant topic comes up, he performs a **semantic similarity search** to recall the right memories — even if you used different words. This is a full Retrieval-Augmented Generation (RAG) pipeline running locally.
+
+</details>
+
+<details>
+<summary><b>🎯 Skills System</b></summary>
+
+Jarvis has an extensible plugin architecture. Skills are simple `.md` or `.txt` files that define new behaviors, personalities, or domain knowledge. You can:
+- 📤 **Upload skills** via the Web HUD
+- 🔗 **Import skills from a URL**
+- 🗑️ **Delete skills** you no longer need
+
+This lets you customize Jarvis's behavior without touching any Python code.
+
+</details>
+
+<details>
+<summary><b>🚀 Smart App Locator</b></summary>
+
+The most carefully engineered module in the entire project. It pulls application data from **four different sources**: PowerShell's `Get-StartApps`, the Windows Registry App Paths, Start Menu `.lnk` shortcut files, and the system `PATH` environment variable. It then uses **fuzzy string matching** to find the best match for whatever app name you say — even if you get the name slightly wrong.
+
+</details>
+
+<details>
+<summary><b>🧑‍💻 Dedicated Coding Mode</b></summary>
+
+When you ask Jarvis to write complex code, debug a script, or do heavy programming work, he can temporarily **hot-swap his AI brain** from a lightweight model (like Gemini Flash) to NVIDIA's massive **Llama 3.1 70B** model — specifically optimized for code generation. Once the coding task is done, he seamlessly swaps back to the faster model for regular conversation.
+
+</details>
+
+<details>
+<summary><b>📺 YouTube Automation</b></summary>
+
+Tell Jarvis to play something on YouTube (e.g., "Play the latest MKBHD video"), and he'll open your default browser and navigate directly to YouTube's search results page with the exact query. Quick and simple — no API keys, no setup.
+
+</details>
+
+<details>
+<summary><b>🧹 Show Desktop Panic Button</b></summary>
+
+Jarvis has direct access to the Windows Shell API. With a single command, he can instantly **minimize every open window** on your desktop. Useful for quickly clearing your screen, or as a precursor to taking a clean screenshot for Screen Analysis.
+
+</details>
+
+<details>
+<summary><b>📲 PC-to-Phone File Transfer</b></summary>
+
+Because Jarvis is connected to your Telegram bot, he can do more than just send text messages. He can **extract or generate files on your PC** (PDFs, screenshots, documents) and push them directly to your Telegram app on your phone. For example: "Jarvis, generate a syllabus PDF for my biology class and send it to my phone."
+
+</details>
+
+<details>
+<summary><b>🎯 Anti-Procrastination Telemetry</b></summary>
+
+The Proactive Engine silently monitors which application window is currently active on your screen using `ctypes` Windows API calls. It feeds this information (e.g., "YouTube - Google Chrome" vs. "Visual Studio Code") into the AI alongside your tracked goals. If it detects you're procrastinating, Jarvis can autonomously send you a **motivational nudge** via Telegram to get you back on track.
+
+</details>
+
+<details>
+<summary><b>🧩 Drag-and-Drop Skill Hub</b></summary>
+
+The Web HUD includes a full **skill management center**. You can upload Python skill files directly through the browser, import skills from a URL, view all installed skills, or delete ones you no longer need — all without touching the command line or any config files.
+
+</details>
+
+<details>
+<summary><b>🎛️ Live Configuration Panel</b></summary>
+
+The Web HUD includes a **Settings panel** that lets you change your AI provider, API keys, voice, and model in real-time — directly from the browser. Changes are written securely to your `.env` file on disk, and take effect immediately without restarting the server.
+
+</details>
+
+---
+
+## 📁 Directory Structure
 
 ```
 Nexus-VII-Autonomous-Intelligence/
